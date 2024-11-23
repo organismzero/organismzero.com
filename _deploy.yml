@@ -19,22 +19,29 @@
 #     blah: blah
 rsync:
   default:
-    user: rsync
+    user: organism
     port: 22
-    host: caladbolg.sparanoid.com
-    dest: /srv/www/dev.sparanoid.com/public_html
+    host: organismzero.com
+    dest: /home/organism/apps/organismzero
     # Extra rsync parameters
     # I use `--exclude` here to prevent additional files from being deleted on
     # the server (rsync --delete), these files and directories are available on
     # the remote server but outside this git repo. So I need to ignore them.
     params: --exclude=lab --exclude=s3_website.yml
   prod:
-    user: sparanoid
+    user: organism
     port: 22
-    host: caladbolg.sparanoid.com
-    dest: /srv/www/sparanoid.com/public_html
+    host: organismzero.com
+    dest: /home/organism/apps/organismzero
     # Extra rsync parameters
     # I use `--rsync-path` here to run `rsync` with sudo permission.
+    params: --rsync-path="sudo rsync" --exclude=lab --exclude=s3_website.yml
+  opal:
+    user: organism
+    port: 22
+    host: opal2.opalstack.com
+    dest: /home/organism/apps/organismzero
+    # Extra rsync parameters
     params: --rsync-path="sudo rsync" --exclude=lab --exclude=s3_website.yml
 
 sparanoid:

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+rm ./grep.md
+grep -iRn "$1" ./ \
+ --exclude-dir=node_modules \
+ --exclude-dir=.git \
+ --exclude-dir=.amsf-cache \
+ --exclude-dir=_site \
+ --exclude-dir=.bundle \
+ --exclude-dir=vendor \
+ --exclude-dir=_posts \
+ --exclude-dir=.jekyll-cache \
+ --exclude=CHANGELOG.md \
+ --exclude=CONVENTIONS.md \
+ --exclude=grep.md \
+ --exclude=*lock* \
+ --exclude=*.svg \
+ --exclude=*.min.js \
+ --exclude=*css \
+ --exclude=.jekyll-metadata \
+ --exclude=*.min.css \
+ --exclude=*.css.map \
+ --exclude=*.js.map \
+ --exclude=*.js.map \
+ --exclude=*.js.map \
+ >> grep.md
