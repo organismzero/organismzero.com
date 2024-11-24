@@ -42,7 +42,7 @@ rsync:
     host: opal2.opalstack.com
     dest: /home/organism/apps/organismzero
     # Extra rsync parameters
-    params: --rsync-path="sudo rsync" --exclude=lab --exclude=s3_website.yml
+    params: --rsync-path="rsync" --exclude=lab --exclude=s3_website.yml
 
 sparanoid:
   default:
