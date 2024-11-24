@@ -2,6 +2,7 @@
 layout: post
 title: Upgrading Guide from v1 to v2
 category: news
+published: false
 ---
 
 Almace Scaffolding now migrates from Less to Sass, this may make your existing projects non-upgradable, it needs quite a lot of work for you to do the migration if you use a custom theme that it's powered by Less preprocessor. You have to compare your existing projects to [this Pull Request](https://github.com/sparanoid/almace-scaffolding/pull/85) side to side to make sure every change you made are synced correctly.

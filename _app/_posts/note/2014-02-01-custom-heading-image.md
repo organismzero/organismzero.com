@@ -5,6 +5,7 @@ category: note
 tags: curtana
 heading-img: svg/heading-image-example.svg
 heading-img-local: true
+published: false
 ---
 
 This is an example of custom post heading image. You can simply add the following setting to your post [front-matter field](https://jekyllrb.com/docs/frontmatter/):

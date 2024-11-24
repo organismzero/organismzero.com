@@ -3,6 +3,7 @@ layout: post
 title: Syntax Highlighting
 category: note
 tags: miscellaneous
+published: false
 ---
 
 Code highlighting demo, powered by Rouge. More info about code highlighting can be found at [Jekyll's documentation](https://jekyllrb.com/docs/templates/#code-snippet-highlighting).

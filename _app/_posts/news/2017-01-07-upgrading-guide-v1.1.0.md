@@ -2,6 +2,7 @@
 layout: post
 title: "Upgrading Guide: v1.1.0"
 category: news
+published: false
 ---
 
 There're some significant changes in update v1.1.0, action required after you upgrade Almace Scaffolding.

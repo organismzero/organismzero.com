@@ -4,6 +4,7 @@ title: Custom HTML Markups
 category: note
 plugin: lightense
 tags: curtana
+published: false
 ---
 
 ## `.note`, `.store`, and `.download`

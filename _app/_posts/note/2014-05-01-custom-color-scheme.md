@@ -11,6 +11,7 @@ scheme-bg: "#00ebff"
 scheme-hero-text: "#00ebff"
 scheme-hero-link: "#00ebff"
 scheme-hero-bg: "#0029ff"
+published: false
 ---
 
 This is an example how to change your post color scheme for specific posts. You can simply add the following variables to your post [front-matter field](https://jekyllrb.com/docs/frontmatter/):

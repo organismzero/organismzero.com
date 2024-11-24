@@ -3,6 +3,7 @@ layout: post
 title: GitHub Pages Setup Guide
 category: note
 tags: deployment
+published: false
 ---
 
 ## The Problem

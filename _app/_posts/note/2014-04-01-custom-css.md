@@ -11,6 +11,7 @@ css: |
   body {
     background-image: linear-gradient(to bottom, #fff500, #ff8f00);
   }
+published: false
 ---
 
 This is an example how to change your post styling via CSS. You can simply add the `css` option to your post [front-matter field](https://jekyllrb.com/docs/frontmatter/):
